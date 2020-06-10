@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'djoser',
     'otp',
     'Google_Login',
+    'event',
+    'Contact_us',
 
     'allauth',
     'allauth.account',

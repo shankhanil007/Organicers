@@ -28,4 +28,6 @@ urlpatterns = [
     path('auth/', include('Category_Auth.urls')),
     path('verify/', include('otp.urls')),
     path('accounts/', include('allauth.urls')),
+    path('book/events',include('event.urls')),
+    path('contact/',include('Contact_us.urls')),
 ]
